@@ -1,7 +1,7 @@
 import cv2
 import sys
 
-img = cv2.imread('')
+img = cv2.imread('image.jpg')
 if img is None:
     sys.exit('파일을 찾을 수 없습니다.')
 
